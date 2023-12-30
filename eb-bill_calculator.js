@@ -5,7 +5,6 @@ function calculateeb()
 {
     const units = Number(document.querySelector("#units").value)
     const container = document.querySelector(".container")
-    const move = document.querySelector(".move")
     container.classList.add("animate")
     const firts_50_units = 50*0.75
     let result
