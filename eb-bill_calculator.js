@@ -7,7 +7,6 @@ function calculateeb()
     const container = document.querySelector(".container")
     const move = document.querySelector(".move")
     container.classList.add("animate")
-    move.classList.add("anim")
     const firts_50_units = 50*0.75
     let result
     amount.style.fontWeight = "400"
